@@ -1,0 +1,94 @@
+body {
+  font: 15px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  color: #3b3b3b;
+  margin: 12px 100px 12px;
+  background-color: rgba(78, 75, 75, 0.5);
+}
+
+h1,
+h2 {
+  font-family: Georgia;
+}
+
+h1 {
+  border-bottom: 20px solid rgb(216, 97, 97);
+  background-color: #222121;
+  color: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  border-top: 5px solid #ccc;
+  border-bottom: 5px solid #ccc;
+  background-color: rgb(177, 177, 177);
+  padding-left: 14px;
+  margin: 0 0 0 -15px;
+  font-weight: bolder;
+}
+
+.secao {
+  background-color: #eee;
+  padding-left: 15px;
+}
+
+.secao2 {
+  background-color: #eee;
+  padding-left: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+label:after {
+  content: ":";
+}
+
+a {
+  text-decoration: none;
+  color: rgb(10, 54, 250);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(10, 54, 250);
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fa0;
+}
+
+#menu {
+  margin: 0;
+}
+
+#menu ul,
+#menu li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu .ativo {
+  background-color: rgb(42, 104, 23);
+}
+
+.vcard {
+  padding: 5px;
+}
+
+.url,
+.email {
+  display: block;
+}
+
+.photo {
+  float: right;
+  margin-right: 0%;
+  width: 130;
+  height: 130;
+}
